@@ -8,6 +8,7 @@ import {
   User,
   Revenue,
 } from './definitions';
+
 import { formatCurrency } from './utils';
 
 export async function fetchRevenue() {
